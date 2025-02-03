@@ -22,18 +22,19 @@ body {
 h1 {
     font-size: 40px;
     color: #ffcc00; /* Yellow accent for contrast */
-    margin-bottom: 20px; /* Add margin for spacing */
 }
 
 h2 {
     font-size: 30px;
     color: #ffcc00; /* Yellow accent for contrast */
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 h3 {
     font-size: 22px;
     margin-top: 30px; /* Spacing between sections */
+    margin-bottom: 30px;
 }
 
 ul {
