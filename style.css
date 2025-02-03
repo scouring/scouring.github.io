@@ -3,4 +3,17 @@ body {
     background-size: 200px 200px;
     color: white;
     font-family: "Arial", sans-serif;
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    text-align: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1); /* Optional: Slight transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
 }
