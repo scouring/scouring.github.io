@@ -1,5 +1,6 @@
 body {
-    background: linear-gradient(to bottom, #0f0f0f, #1a1a2e);
-    color: #e0e0e0;
+    background: url('assets/grid.png'), linear-gradient(to bottom, #121212, #222);
+    background-size: 200px 200px;
+    color: white;
     font-family: "Arial", sans-serif;
 }
