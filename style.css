@@ -27,14 +27,12 @@ h1 {
 h2 {
     font-size: 30px;
     color: #ffcc00; /* Yellow accent for contrast */
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 h3 {
     font-size: 22px;
-    margin-top: 30px; /* Spacing between sections */
-    margin-bottom: 30px;
+    margin-top: 10px; /* Spacing between sections */
 }
 
 ul {
@@ -59,7 +57,7 @@ ul li a:hover {
 .profile-img {
     width: 200px;
     border-radius: 50%;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 a {
@@ -73,5 +71,5 @@ a:hover {
 
 /* Add spacing between paragraphs in sections */
 p {
-    margin-bottom: 20px; /* Adds space between paragraphs */
+    margin-bottom: 10px; /* Adds space between paragraphs */
 }
