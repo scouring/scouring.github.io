@@ -22,14 +22,18 @@ body {
     min-height: 200px;/* Ensures enough space for text */
 }
 h1 {
-    font-size: 20px; /* Adjust the size as needed */
+    font-size: 30px; /* Adjust the size as needed */
 }
 h2 {
-    font-size: 8px; /* Adjust the size as needed */
+    font-size: 18px; /* Adjust the size as needed */
 }
 ul {
     list-style-type: none; /* Removes the default bullets */
     padding-left: 0; /* Removes any default left padding */
+    margin: 0;
+}
+ul li {
+    display: block; /* Makes each list item appear on a new line */
 }
 
 
