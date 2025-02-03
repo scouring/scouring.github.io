@@ -27,13 +27,6 @@ h1 {
 h2 {
     font-size: 8px; /* Adjust the size as needed */
 }
-ul {
-    list-style-type: none; /* Removes the default bullets */
-    padding-left: 0; /* Removes any default left padding */
-    margin: 0;
-}
-ul li {
-    display: block; /* Makes each list item appear on a new line */
-}
+
 
 
