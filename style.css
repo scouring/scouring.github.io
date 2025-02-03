@@ -1,10 +1,3 @@
-/* Resetting some default styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     background: url('assets/grid.png'), linear-gradient(to bottom, #121212, #222);
     background-size: 200px 200px;
@@ -15,11 +8,12 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 0;
 }
 
 .container {
     background: rgba(255, 255, 255, 0.1); /* Transparent background */
-    padding: 20px;
+    padding: 30px; /* Increased padding */
     border-radius: 10px;
     width: 80%;
     max-width: 700px;
@@ -27,21 +21,24 @@ body {
 
 h1 {
     font-size: 40px;
-    color: #ffcc00; /* Yellow accent */
+    color: #ffcc00; /* Yellow accent for contrast */
+    margin-bottom: 20px; /* Add margin for spacing */
 }
 
 h2 {
     font-size: 30px;
-    color: #ffcc00;
+    color: #ffcc00; /* Yellow accent for contrast */
+    margin-bottom: 20px;
 }
 
 h3 {
     font-size: 22px;
+    margin-top: 30px; /* Spacing between sections */
 }
 
 ul {
     list-style-type: none; /* Removes bullets */
-    padding-left: 0; /* Removes any default padding */
+    padding-left: 0;
 }
 
 ul li {
@@ -52,7 +49,6 @@ ul li a {
     color: #ffcc00;
     text-decoration: none;
     font-size: 18px;
-    transition: color 0.3s;
 }
 
 ul li a:hover {
@@ -71,5 +67,10 @@ a {
 }
 
 a:hover {
-    color: #00ffcc; /* Teal hover effect */
+    color: #00ffcc;
+}
+
+/* Add spacing between paragraphs in sections */
+p {
+    margin-bottom: 20px; /* Adds space between paragraphs */
 }
