@@ -21,11 +21,7 @@ body {
     max-width: 600px;
     min-height: 200px;/* Ensures enough space for text */
 }
-h1 {
-    color: white;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-}
 h2 {
-    font-size: 24px; /* Adjust the size as needed */
+    font-size: 18px; /* Adjust the size as needed */
 }
 
