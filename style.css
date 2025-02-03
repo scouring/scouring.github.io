@@ -27,4 +27,9 @@ h1 {
 h2 {
     font-size: 8px; /* Adjust the size as needed */
 }
+ul {
+    list-style-type: none; /* Removes the default bullets */
+    padding-left: 0; /* Removes any default left padding */
+}
+
 
